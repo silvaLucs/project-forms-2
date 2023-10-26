@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+    <title>Mentoria</title>
+  </head>
+  <body>
+    <header></header>
+
+    <div id="intro">
+      <h1>MENTORIA</h1>
+      <p>
+        Preencha o formulário abaixo para <br />
+        agendar a sua Mentoria
+      </p>
+    </div>
+    <form id="form-mentory">
+      <fieldset>
+        <legend class="title">INFORMAÇÕES PESSOAIS</legend>
+
+        <div class="namelastname">
+          <div class="input-wrapper">
+            <legend>Nome</legend>
+            <input type="text" id="name" />
+          </div>
+
+          <div class="input-wrapper">
+            <legend>Sobrenome</legend>
+            <input type="text" id="lastname" />
+          </div>
+        </div>
+
+        <div class="input-wrapper">
+          <legend>Email <span>(digite um email valido)</span></legend>
+          <input type="email" id="" />
+        </div>
+
+        <div class="input-wrapper">
+          <legend>Senha <span>(minimo de 6 caracteres)</span></legend>
+          <input type="password" id="" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="title">INFORMAÇÕES DO MENTOR</legend>
+        <div class="mentoryinfos">
+          <legend>Nome do seu mentor <span>(só o primeiro nome)</span></legend>
+          <input type="text" id="" />
+        </div>
+      </fieldset>
+      <fieldset>
+        <legend class="title" id="lastline">SEUS HORARIOS DISPONIVEIS</legend>
+
+        <fieldset class="">
+          <legend class="datetitle">Primeira mentoria</legend>
+
+          <div class="flexmentory">
+
+          <div class="">
+            <legend>Data <span>(DD/MM/AAAA)</span></legend>
+            <input type="date" />
+          </div>
+          <div class="hour">
+            <legend>Das</legend>
+            <input type="time" />
+          </div>
+          <div class="hour">
+            <legend>Até</legend>
+            <input type="time" />
+          </div>
+
+        </div>
+
+        <fieldset class="">
+          <legend class="datetitle">Segunda mentoria</legend>
+
+          <div class="flexmentory">
+
+          <div class="">
+            <legend>Data <span>(DD/MM/AAAA)</span></legend>
+            <input type="date" />
+          </div>
+          <div class="hour">
+            <legend>Das</legend>
+            <input type="time" />
+          </div>
+          <div class="hour">
+            <legend>Até</legend>
+            <input type="time" />
+          </div>
+
+        </div>
+          
+
+      </fieldset>
+    </form>
+    <footer>
+      <button>Salvar</button>
+    </footer>
+  </body>
+</html>
